@@ -1,6 +1,6 @@
 # twoapp
 
-> A Vue.js project
+> 这是一个vue的入门实例，运用vue和vue-router实现简单的购物车功能,添加商品到购物车，删除商品。
 
 ## Build Setup
 
