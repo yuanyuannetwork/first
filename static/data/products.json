@@ -1,0 +1,21 @@
+[{
+	"id": 1,
+	"name": "iPhone X",
+	"price": "6999",
+	"pic": "./static/img/products/iphonex.jpg"
+}, {
+	"id": 2,
+	"name": "iPad Pro",
+	"price": "3688",
+	"pic": "./static/img/products/ipad.jpg"
+}, {
+	"id": 3,
+	"name": "ThinkPad",
+	"price": "5888",
+	"pic": "./static/img/products/thinkpad.jpg"
+}, {
+	"id": 4,
+	"name": "小米平衡车",
+	"price": "3599",
+	"pic": "./static/img/products/xiaomi.jpg"
+}]

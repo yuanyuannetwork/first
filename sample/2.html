@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript" src="assets/js/vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			{{fee | currency(sign,"元")}}
+		</div>
+		<script>
+			Vue.filter("currency",function(val,sign,suffix){
+				var num=parseFloat(val).toFixed(2);
+				var currency=num.toString().replace(/^(\d+)((\.\d+)?)$/,function(s,s1,s2){
+					return s1.replace(reg,"$&,")+s2;});
+					return sign+currency+suffix;
+				
+			});
+			var vm=neew Vue({
+				el:"#app",
+				data:{
+					fee:12345678.9,
+					sign:"￥"
+				}
+			})
+		</script>
+	</body>
+</html>
