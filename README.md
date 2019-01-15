@@ -2,6 +2,9 @@
 
 > 这是一个vue的入门实例，运用vue和vue-router实现简单的购物车功能,添加商品到购物车，删除商品。
 
+>项目截图
+![image](https://github.com/yuanyuannetwork/first/raw/master/xmjt/1.jpg)
+![image](https://github.com/yuanyuannetwork/first/raw/master/xmjt/2.jpg)
 ## Build Setup
 
 ``` bash
